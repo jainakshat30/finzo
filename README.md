@@ -1,8 +1,6 @@
 # Finzo - AI-Powered Financial Management Platform 🚀
 
-A modern, full-stack financial management platform built with cutting-edge technologies. This project demonstrates advanced web development skills across frontend, backend, and DevOps.
-
-![Finzo Dashboard](https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432)
+A modern, full-stack financial management platform built with cutting-edge technologies. This project demonstrates advanced web development skills across frontend, backend and Using AI.
 
 ## 🌟 Key Features
 
@@ -17,7 +15,6 @@ A modern, full-stack financial management platform built with cutting-edge techn
 - **Tailwind CSS** - Responsive and modern UI design
 - **shadcn/ui** - Reusable component system
 - **React Hook Form** - Form validation and handling
-- **Zod** - Type-safe schema validation
 - **Recharts** - Interactive data visualization
 - **Lucide Icons** - Modern iconography system
 
@@ -181,7 +178,7 @@ Contributions are welcome! Please read our contributing guidelines and code of c
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 ---
-Built with 💙 by [Your Name]
+Built with 💙 by Akshat Jain
