@@ -29,33 +29,33 @@ const HeroSection = () => {
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl pb-6 font-light tracking-tight">
-          Manage Your{" "}
-          <span className="font-normal bg-gradient-to-r from-blue-600 to-violet-600 text-transparent bg-clip-text">
-            Finances
-          </span>{" "}
-          <br /> with Intelligence
+        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
+          Manage Your Finances <br /> with Intelligence
         </h1>
-        <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
+        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           An AI-powered financial management platform that helps you track,
           analyze, and optimize your spending with real-time insights.
         </p>
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8 rounded-full text-base">
+            <Button size="lg" className="px-8">
               Get Started
             </Button>
           </Link>
-          
+          <Link href="https://www.github.com/jainakshat30">
+            <Button size="lg" variant="outline" className="px-8">
+              Watch Demo
+            </Button>
+          </Link>
         </div>
-        <div className="hero-image-wrapper mt-16">
+        <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image
               src="/banner2.jpeg"
               width={1280}
               height={720}
               alt="Dashboard Preview"
-              className="rounded-2xl shadow-2xl border mx-auto"
+              className="rounded-lg shadow-2xl border mx-auto"
               priority
             />
           </div>

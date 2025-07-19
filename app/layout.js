@@ -1,13 +1,13 @@
-import { DM_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Finzo",
+  title: "Welth",
   description: "One stop Finance Platform",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <head>
           <link rel="icon" href="/logo-sm.png" sizes="any" />
         </head>
-        <body className={`${dmSans.className}`}>
+        <body className={`${inter.className}`}>
           <Header />
           <main className="min-h-screen">{children}</main>
           <Toaster richColors />
