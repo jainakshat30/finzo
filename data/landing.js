@@ -88,7 +88,7 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    image: "/testimonial1.jpg",
+    image: "/logo1.png", // using available local image
     name: "Sarah Johnson",
     role: "Small Business Owner",
     quote:
@@ -102,7 +102,7 @@ export const testimonialsData = [
       "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
   },
   {
-    image: "/testimonial3.jpg",
+    image: "/logo-sm.png", // using available local image
     name: "Emily Rodriguez",
     role: "Financial Advisor",
     quote:
