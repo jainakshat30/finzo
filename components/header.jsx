@@ -58,7 +58,7 @@ const Header = async () => {
           </SignedIn>
           <SignedOut>
             <SignInButton forceRedirectUrl="/dashboard">
-              <Button variant="outline">Login</Button>
+              <Button className = " bg-blue-400 hover:bg-blue-500 text-white">Login</Button>
             </SignInButton>
           </SignedOut>
           <SignedIn>

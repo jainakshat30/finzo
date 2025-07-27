@@ -29,7 +29,7 @@ const HeroSection = () => {
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
+        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 font-extrabold bg-gradient-to-br from-blue-500 to-blue-900 text-transparent bg-clip-text">
           Manage Your Finances <br /> with Intelligence
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -38,7 +38,7 @@ const HeroSection = () => {
         </p>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8">
+            <Button size="lg" className="px-8 bg-blue-400 hover:bg-blue-500 text-white">
               Get Started
             </Button>
           </Link>
